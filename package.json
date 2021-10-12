@@ -7,7 +7,6 @@
   "engines": {
     "node": "14.x"
   },
-  "type": "module",
   "license": "UNLICENSED",
   "scripts": {
     "prebuild": "rimraf dist",
