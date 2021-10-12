@@ -1,5 +1,5 @@
 service:
- name: nest-serverless-lambda-demo
+ name: nest-serverless-lambda-api-gateway
 
 plugins:
  - 'serverless-plugin-typescript'
@@ -13,7 +13,7 @@ provider:
 functions:
  main: # The name of the lambda function
    # The module 'handler' is exported in the file 'src/lambda'
-   handler: src/lambda.handler
+   handler: dist/lambda.handler
    events:
      - http:
          method: any
