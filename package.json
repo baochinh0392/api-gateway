@@ -5,7 +5,8 @@
   "author": "Bao Chinh",
   "private": true,
   "engines": {
-    "node": "14.x"
+    "node": "12.1.0",
+    "npm": "6.9.0"
   },
   "license": "UNLICENSED",
   "scripts": {
