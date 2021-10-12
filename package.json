@@ -1,9 +1,12 @@
 {
   "name": "api-getway",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "gateway API",
+  "author": "Bao Chinh",
   "private": true,
+  "engines": {
+    "node": "14.x"
+  },
   "license": "UNLICENSED",
   "scripts": {
     "prebuild": "rimraf dist",
